@@ -9,5 +9,15 @@ namespace BlackJack
 
         int option = startOption();
         int32[] values;
+
+        private List<Card> cards;
+
+        /// <summary>
+        /// Initilize on creation of Deck.
+        /// </summary>
+        public Deck()
+        {
+            Initialize();
+        }
     }
 }
