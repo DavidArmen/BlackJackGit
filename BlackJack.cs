@@ -7,6 +7,7 @@ namespace BlackJack
     {
         static void Main(string[] args)
 
-        
+        int option = startOption();
+        int32[] values;
     }
 }
